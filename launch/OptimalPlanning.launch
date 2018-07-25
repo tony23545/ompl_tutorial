@@ -1,0 +1,4 @@
+<launch>
+  <arg name = "file" default = "path.txt"/>
+  <node pkg = "ompl_tutorial" type = "OptimalPlanning" name = "OptimalPlanning" output = "screen"/>
+</launch>
